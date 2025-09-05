@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+header,
+main,
+footer {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    width: 80%;
+    padding: 20px;
+}
+
+article p {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+section.s1 {
+    width: 500px;
+    border: 5px solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+section.s2 {
+    display: inline;
+    width: 500px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 150px;
+
+    border: 5px solid red;
+}
+
+
+a {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: blue;/
+}
+
+
+a:hover {
+    background-color: brown;
+}
+
+
+span {
+    font-weight: bold;
+    display: inline-block;
+}
+
+@media (max-width : 767px) {
+
+    header,
+    main,
+    footer {
+        width: 100%;
+        /* margin-left: 10%; */
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+
+        background-color: aliceblue;
+    }
+}

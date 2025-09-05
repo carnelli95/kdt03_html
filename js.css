@@ -1,0 +1,75 @@
+main {
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=button] {
+    padding: 10px 15px;
+    margin: 5px 15px;
+
+    background-color: aquamarine;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+
+}
+
+input[type=button]:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    padding: 10px 15px;
+    margin: 5px 15px;
+
+    background-color: aquamarine;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: none;
+
+}
+
+input[type=reset]:hover {
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+.btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btDiv {
+    width: 800px;
+    height: 50px;
+ 
+    text-align: center;
+    text-align: center;
+}
+
+#msg {
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: blod;
+}
+
+#msg > span {
+    color: red;
+}
