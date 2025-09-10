@@ -7,7 +7,7 @@ main {
     align-items: center;
 }
 
-input[type=button] {
+button, input[type=button], input[type=reset] {
     padding: 10px 15px;
     margin: 5px 15px;
 
@@ -19,25 +19,7 @@ input[type=button] {
 
 }
 
-input[type=button]:hover {
-    background-color: aqua;
-    color: black;
-    cursor: pointer;
-}
-
-input[type=reset] {
-    padding: 10px 15px;
-    margin: 5px 15px;
-
-    background-color: aquamarine;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-    border-style: none;
-
-}
-
-input[type=reset]:hover {
+button:hover, input[type=button]:hover, input[type=reset]:hover {
     background-color: aqua;
     color: black;
     cursor: pointer;
@@ -47,14 +29,6 @@ input[type=reset]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.btDiv {
-    width: 800px;
-    height: 50px;
- 
-    text-align: center;
-    text-align: center;
 }
 
 #msg {
