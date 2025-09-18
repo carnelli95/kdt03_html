@@ -1,0 +1,11 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul  li {
+    cursor: pointer ;
+    border-radius: 5px;
+    border: 2px black;
+}
