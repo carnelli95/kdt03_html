@@ -9,6 +9,8 @@ const check1 = () => {
     console.log(typeof(inputV));
     console.log(inputV.length);
     console.log(inputV[0]);
+    console.log(intputV.charAt(0))
+
 
     //입력한 문자열에서 공백 제거
     let inputVt = inputV.replaceAll(' ','');
@@ -56,7 +58,6 @@ const check2 = () => {
 
         document.getElementById('txt2').value = sum;
         document.getElementById('msg').innerHTML = `합계 = &nbsp<span>${sum}</span>`;
-    
 }
 
 //취소처리

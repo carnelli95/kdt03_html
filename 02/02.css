@@ -1,9 +1,8 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
-
-
 
 header,
 main,
@@ -13,17 +12,35 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    background-color: bisque;
+}
+
+header > h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 article {
-    width: 80%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
     padding: 20px;
 }
 
+article > h1 {
+  padding: 20px; 
+  font-weight: bold;
+}
+
 article p {
+    padding: 20px;
     font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 25px;
+    color:beige;
 
 }
 
@@ -49,10 +66,9 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     width: 100%;
-    height: 150px;
-
     border: 5px solid red;
 }
 
@@ -86,11 +102,15 @@ span {
     main,
     footer {
         width: 100%;
-        /* margin-left: 10%; */
-        /* padding: 20px; */
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
+        align-items: center;
 
         background-color: aliceblue;
+    }
+    footer {
+        background-color: black;
+        color: white;
     }
 }
