@@ -9,7 +9,6 @@ const check1 = () => {
     console.log(typeof(inputV));
     console.log(inputV.length);
     console.log(inputV[0]);
-    console.log(intputV.charAt(0))
 
 
     //입력한 문자열에서 공백 제거

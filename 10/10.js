@@ -1,15 +1,12 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', ()=>{
+  const mainimg = document.querySelector('#mainimg > img');
+  const thumimg = document.querySelectorAll('#thumimg > img') ;
 
-    const selectedImg = document.querySelector('#selectedImg')
-    const selectImg = document.querySelectorAll('.selectImg')
+  for(let thum of thumimg) {
+    thum.addEventListener('click' , () => {
+      mainimg.setAttribute('src', thum.getAttribute('src')) ;
+      mainimg.setAttribute('alt', thum.getAttribute('alt')) ;
+    }) ;
+  }
 
-
-    for (let img of selectImg) {
-        img.addEventListener('click', () => {
-            selectedImg.setAttribute('src', img.getAttribute('src'));
-            selectedImg.setAttribute('alt', img.getAttribute('alt'));
-            console.log(img.getAttribute('src'))
-            console.log(img.getAttribute('alt'))
-        }
-    )}
-})
+});

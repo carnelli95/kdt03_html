@@ -41,7 +41,7 @@ button:hover, input[type=button]:hover, input[type=reset]:hover {
     justify-content: center;
     align-items: center;
     font-size: large;
-    font-weight: blod;
+    font-weight: bold;
 }
 
 #msg > span {

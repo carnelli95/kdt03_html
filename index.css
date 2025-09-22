@@ -37,6 +37,10 @@ ul {
     list-style: none;
 }
 
+footer {
+  padding: 0px 20px;
+}
+
 footer > ul {
     display :flex;
     justify-content: end;
@@ -64,10 +68,12 @@ footer a:hover {
 }
 
 main li {
-    /* border-bottom: 1px solid; */
-    padding: 10px;
-    margin-top: 10px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+
+  padding: 10px;
+  margin-top: 10px;
 }
+
 
 main li:hover {
     background-color: beige;

@@ -2,22 +2,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 #diceDiv  p {
-    font-weight: bold;
     text-align: center;
 }
 
 #diceDiv > div {
-    margin: 20px;
+    margin: 10px 40px;
 }
 
 #btDiv > button {
     margin: 5px;
     padding: 5px;
-    background-color: brown;
+    background-color: beige;
     border-radius: 5px;
     border-style:hidden; 
-    color: white;
+    color: blue;
+}
+
+.spo, .spx {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.spo {
+  color: brown;
+}
+
+.spx {
+  color: blue;
 }
