@@ -13,7 +13,7 @@ const getYesterday = () => {
 
 // 박스오피스 가져오기
 const getData = (gdt) => {
-    let apiKey = 'c70a2264c862a040e02d9fbd0b4b06e2';
+   
     let url = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${apiKey}&targetDt=${gdt}`
 
     // fetch
