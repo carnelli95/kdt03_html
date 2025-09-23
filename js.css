@@ -42,6 +42,7 @@ button:hover, input[type=button]:hover, input[type=reset]:hover {
     align-items: center;
     font-size: large;
     font-weight: bold;
+    border-style: none;
 }
 
 #msg > span {
