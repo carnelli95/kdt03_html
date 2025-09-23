@@ -1,0 +1,24 @@
+#boxMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    height: 600px;
+}
+
+#inDt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dt{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+
+    font-weight: bold;
+}
+
